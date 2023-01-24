@@ -23,7 +23,7 @@ role: Data Analyst
 #    url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Actuario interesado en la ciencia de datos, matemáticas y educación.
+bio: Actuary interested in data science, mathematics and education.
 
 # Interests to show in About widget
 interests:
@@ -57,9 +57,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  #- icon: cv
+  #  icon_pack: ai
+  #  link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -68,5 +68,5 @@ email: ''
 highlight_name: true
 ---
 
-Soy un actuario con gusto por la ciencia de datos y la educación, soy muy curioso y me apasiona aprender cosas nuevas y compartir con los demás lo que voy aprendiendo. 
+I am an actuary with a passion for data science and education, I am very curious and passionate about learning new things and sharing what I am learning with others.
 {style="text-align: justify;"}
