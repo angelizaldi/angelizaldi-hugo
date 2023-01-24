@@ -43,7 +43,13 @@ El dataset "penguins" contiene información sobre 3 especies de pingüinos en la
 penguins.head()
 ```
 
-{{< table path="head.csv" header="true" caption="" >}}
+|   | species | island    | bill_length_mm | bill_depth_mm | flipper_length_mm | body_mass_g | sex    |
+|---|---------|-----------|----------------|---------------|-------------------|-------------|--------|
+| 0 | Adelie  | Torgersen | 39.1           | 18.7          | 181.0             | 3750.0      | Male   |
+| 1 | Adelie  | Torgersen | 39.5           | 17.4          | 186.0             | 3800.0      | Female |
+| 2 | Adelie  | Torgersen | 40.3           | 18.0          | 195.0             | 3250.0      | Female |
+| 3 | Adelie  | Torgersen |                |               |                   |             |        |
+| 4 | Adelie  | Torgersen | 36.7           | 19.3          | 193.0             | 3450.0      | Female |
 
 Para obtener más información acerca del dataset utilizaremos el método `DataFrame.info()` para imprimir un pequeño resumen sobre las columnas del dataframe
 
@@ -117,8 +123,12 @@ Una vez calcula la matriz de correlaciones podemos imprimirla para visualizar lo
 display(corr_matrix)
 ```
 
-{{< table path="corr_matrix.csv" header="true" caption="Table 1: Matriz de correlaciones" >}}
-
+|                   | bill_length_mm       | bill_depth_mm        | flipper_length_mm   | body_mass_g          |
+|-------------------|----------------------|----------------------|---------------------|----------------------|
+| bill_length_mm    | 1.0                  | -0.23505287035553338 | 0.6561813407464291  | 0.5951098244376295   |
+| bill_depth_mm     | -0.23505287035553338 | 1.0                  | -0.5838512164654133 | -0.47191562118606556 |
+| flipper_length_mm | 0.6561813407464291   | -0.5838512164654133  | 1.0                 | 0.871201767306011    |
+| body_mass_g       | 0.5951098244376295   | -0.47191562118606556 | 0.871201767306011   | 1.0                  |
 ## Graficar mapa de calor
 
 Aunque con la matriz de correlaciones podemos sacar conclusiones acerca de cómo se correlacionan las columnas del dataset, puede resultar más sencillo visualizar los resultados con un mapa de calor, particularmente en datasets más grandes. Para crear un mapa de calor utilizaremos la función `seaborn.heatmap()` cuyo argumento será la matriz de correlaciones que obtuvimos anteriormente
