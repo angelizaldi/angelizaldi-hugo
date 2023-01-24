@@ -25,52 +25,48 @@ sections:
           icon: r-project
           icon_pack: fab
         - name: SQL
-          description: DQL, DDL, DML
+          description: SQL for data query, data management and data definition.
           icon: sql
-          icon_pack: fab
+          icon_pack: custom
         - name: Excel
-          description: Advanced excel and VBA.
-          icon: sql
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-  - block: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
+          description: Advanced excel, VBA and power pivot.
+          icon: excel
+          icon_pack: custom
+        - name: Power BI
+          description: Power query, DAX and dashboards.
+          icon: power_bi
+          icon_pack: custom
+        - name: LaTeX
+          description: ''
+          icon: latex
+          icon_pack: custom
+  # - block: experience
+  #   content:
+  #     title: Experience
+  #     # Date format for experience
+  #     #   Refer to https://wowchemy.com/docs/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Experiences.
+  #     #   Add/remove as many `experience` items below as you like.
+  #     #   Required fields are `title`, `company`, and `date_start`.
+  #     #   Leave `date_end` empty if it's your current employer.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - title: CEO
+  #         company: GenCoin
+  #         company_url: ''
+  #         company_logo: org-gc
+  #         location: California
+  #         date_start: '2021-01-01'
+  #         date_end: ''
+  #         description: |2-
+  #             Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
-    design:
-      columns: '2'
+  #             * Analysing
+  #             * Modelling
+  #             * Deploying
+  #   design:
+  #     columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -88,7 +84,7 @@ sections:
           date_end: ''
           date_start: '2022-11-06'
           description: 'The certificate program requires an understanding of building TensorFlow models using Computer Vision, Convolutional Neural Networks, Natural Language Processing, and real-world image data and strategies.'
-          organization: TensorFLow
+          organization: TensorFlow
           organization_url: https://www.tensorflow.org/
           title: 'Tensorflow Developer Certificate'
           url: ''
@@ -103,10 +99,34 @@ sections:
         - certificate_url: https://www.coursera.org/account/accomplishments/specialization/certificate/Z52QNA7QRTQF
           date_end: ''
           date_start: '2022-08-01'
-          description: 'Artificial Neural Networks, CNN, RNN and Transformers'
-          organization: DeepLearning.AI
+          description: 'In this Specialization, you will build and train neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learn how to make them better with strategies such as Dropout, BatchNorm, Xavier/He initialization, and more.'
+          organization: DeepLearning AI
           organization_url: https://www.coursera.org/
           title: 'Deep Learning Specialization'
+          url: https://www.coursera.org/specializations/deep-learning
+        - certificate_url: https://www.coursera.org/account/accomplishments/specialization/certificate/XM862FC8VXUT
+          date_end: ''
+          date_start: '2022-10-01'
+          description: 'It provides a broad introduction to modern machine learning, including supervised learning , unsupervised learning and some of the best practices used in Silicon Valley for artificial intelligence and machine learning innovation.'
+          organization: DeepLearning AI
+          organization_url: https://www.coursera.org/
+          title: 'Machine Learning Specialization'
+          url: https://www.coursera.org/specializations/machine-learning-introduction
+        - certificate_url: https://www.credly.com/badges/e15e82cd-30c8-458e-b178-a1a8c415ccc0/public_url
+          date_end: ''
+          date_start: '2022-11-01'
+          description: 'This introductory course is intended for students who seek an overall understanding of cloud computing concepts, independent of specific technical roles. It provides a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support.'
+          organization: AWS
+          organization_url: https://aws.amazon.com/?nc1=h_ls
+          title: 'Cloud Foundations'
+          url: ''
+        - certificate_url: https://portal.bloombergforeducation.com/certificates/3Trc8vd6B73HMXb65CKQ6uHJ
+          date_end: ''
+          date_start: '2020-04-01'
+          description: 'BMC consists of 3 sections — Core Concepts (includes four modules – Economic Indicators, Currencies, Fixed Income, Equities), Getting Started on the Terminal and Portfolio Management.'
+          organization: Bloomberg
+          organization_url: https://www.bloomberg.com/professional/expertise/education/
+          title: 'Bloomberg Market Concepts Certificate'
           url: ''
     design:
       columns: '2'
