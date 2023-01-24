@@ -45,90 +45,7 @@ penguins.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>species</th>
-      <th>island</th>
-      <th>bill_length_mm</th>
-      <th>bill_depth_mm</th>
-      <th>flipper_length_mm</th>
-      <th>body_mass_g</th>
-      <th>sex</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>39.1</td>
-      <td>18.7</td>
-      <td>181.0</td>
-      <td>3750.0</td>
-      <td>Male</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>39.5</td>
-      <td>17.4</td>
-      <td>186.0</td>
-      <td>3800.0</td>
-      <td>Female</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>40.3</td>
-      <td>18.0</td>
-      <td>195.0</td>
-      <td>3250.0</td>
-      <td>Female</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Adelie</td>
-      <td>Torgersen</td>
-      <td>36.7</td>
-      <td>19.3</td>
-      <td>193.0</td>
-      <td>3450.0</td>
-      <td>Female</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+{{< table path="head.csv" header="true" caption="" >}}
 
 
 Para obtener más información acerca del dataset utilizaremos el método `DataFrame.info()` para imprimir un pequeño resumen sobre las columnas del dataframe
@@ -206,62 +123,8 @@ display(corr_matrix)
 ```
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+{{< table path="corr_matrix.csv" header="true" caption="Table 1: Matriz de correlaciones" >}}
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>bill_length_mm</th>
-      <th>bill_depth_mm</th>
-      <th>flipper_length_mm</th>
-      <th>body_mass_g</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>bill_length_mm</th>
-      <td>1.000000</td>
-      <td>-0.235053</td>
-      <td>0.656181</td>
-      <td>0.595110</td>
-    </tr>
-    <tr>
-      <th>bill_depth_mm</th>
-      <td>-0.235053</td>
-      <td>1.000000</td>
-      <td>-0.583851</td>
-      <td>-0.471916</td>
-    </tr>
-    <tr>
-      <th>flipper_length_mm</th>
-      <td>0.656181</td>
-      <td>-0.583851</td>
-      <td>1.000000</td>
-      <td>0.871202</td>
-    </tr>
-    <tr>
-      <th>body_mass_g</th>
-      <td>0.595110</td>
-      <td>-0.471916</td>
-      <td>0.871202</td>
-      <td>1.000000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 
 ## Graficar mapa de calor
@@ -278,7 +141,7 @@ _ = sns.heatmap(corr_matrix)
 
 
     
-![png](seaborn-triangular-heatmap_19_0.png)
+![png](./seaborn-triangular-heatmap_19_0.png)
     
 
 
@@ -317,7 +180,7 @@ _ = ax.set_title("Correlaciones entre columnas numéricas", size=15)
 
 
     
-![png](seaborn-triangular-heatmap_22_0.png)
+![png](./seaborn-triangular-heatmap_22_0.png)
     
 
 
@@ -357,7 +220,7 @@ _ = ax.set_title("Correlaciones entre columnas numéricas", size=15)
 
 
     
-![png](seaborn-triangular-heatmap_26_0.png)
+![png](./seaborn-triangular-heatmap_26_0.png)
     
 
 
