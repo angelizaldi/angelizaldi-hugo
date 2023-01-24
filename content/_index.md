@@ -25,15 +25,15 @@ sections:
           icon: r-project
           icon_pack: fab
         - name: SQL
-          description: SQL for data query, data management and data definition.
+          description: PostgreSQL for data query, data management and data definition.
           icon: sql
           icon_pack: custom
         - name: Excel
-          description: Advanced excel, VBA and power pivot.
+          description: Advanced Excel, VBA and Power Pivot.
           icon: excel
           icon_pack: custom
         - name: Power BI
-          description: Power query, DAX and dashboards.
+          description: Power Query, DAX and dashboards.
           icon: power_bi
           icon_pack: custom
         - name: LaTeX
