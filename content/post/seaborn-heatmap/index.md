@@ -2,10 +2,10 @@
 summary: Aprende cómo crear heatmaps con Python y Seaborn
 authors:
   - admin
-lastMod: 2023-01-23T00:00:00Z
+lastMod: 2023-01-23T00:00:00.000Z
 title: Mapas de calor en Python con Seaborn
 subtitle: Aprende cómo crear heatmaps con Python y Seaborn
-date: 2023-01-23T00:00:00Z
+date: 2023-01-23T00:00:00.000Z
 tags:
   - dataviz
 categories:
@@ -13,7 +13,8 @@ categories:
 projects: []
 image:
   caption: ""
-  focal_point: ""
+  focal_point: LEFT
+  filename: featured.png
 ---
 En este pequeño tutorial revisaremos cómo crear una mapa de calor de una matriz de correlaciones en Python usando la librería `seaborn` (Interfaz por funciones). Lo primero que haremos será importar la librería `seaborn`, además utilizaremos la librería `numpy` para crear un *mask* que utilizaremos más adelante.
 
