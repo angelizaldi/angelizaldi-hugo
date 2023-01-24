@@ -16,17 +16,25 @@ sections:
     content:
       title: Skills
       items:
+        - name: Python
+          description: Python for data wrangling, data visualization, data analysis, machine learning, deep learning and web scraping.
+          icon: python
+          icon_pack: fab
         - name: R
-          description: 90%
+          description: Basic knowledge of the basic library and the tidyverse packages.
           icon: r-project
+          icon_pack: fab
+        - name: SQL
+          description: DQL, DDL, DML
+          icon: sql
+          icon_pack: fab
+        - name: Excel
+          description: Advanced excel and VBA.
+          icon: sql
           icon_pack: fab
         - name: Statistics
           description: 100%
           icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
           icon_pack: fas
   - block: experience
     content:
@@ -76,29 +84,29 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.credential.net/4241c445-b2a5-4101-93a8-8931150153c4#gs.i1jvce
           date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          date_start: '2022-11-06'
+          description: 'The certificate program requires an understanding of building TensorFlow models using Computer Vision, Convolutional Neural Networks, Natural Language Processing, and real-world image data and strategies.'
+          organization: TensorFLow
+          organization_url: https://www.tensorflow.org/
+          title: 'Tensorflow Developer Certificate'
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: https://basno.com/q5ozqcz5/
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          date_start: '2021-03-01'
+          description: 'Covers the essentials of finance, ethics, and investment roles, providing a clear understanding of the global investment industry'
+          organization: CFA Institute
+          organization_url: https://www.cfainstitute.org/
+          title: 'Investment Foundations Certificate Holder'
+          url: ''
+        - certificate_url: https://www.coursera.org/account/accomplishments/specialization/certificate/Z52QNA7QRTQF
+          date_end: ''
+          date_start: '2022-08-01'
+          description: 'Artificial Neural Networks, CNN, RNN and Transformers'
+          organization: DeepLearning.AI
+          organization_url: https://www.coursera.org/
+          title: 'Deep Learning Specialization'
           url: ''
     design:
       columns: '2'
