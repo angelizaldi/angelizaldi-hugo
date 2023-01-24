@@ -139,10 +139,7 @@ Aunque con la matriz de correlaciones podemos sacar conclusiones acerca de cómo
 _ = sns.heatmap(corr_matrix)
 ```
 
-
-    
-![png](./seaborn-triangular-heatmap_19_0.png)
-    
+{{< figure src="seaborn-triangular-heatmap_19_0.png" caption="" numbered="true" >}}
 
 
 ## Personalización del mapa de calor
