@@ -1,10 +1,10 @@
 ---
-summary: Aprede a simular precesos AR, MA y ARMA con Python y statmodels.
+summary: Aprende a simular precesos AR, MA y ARMA con Python y statmodels.
 authors:
   - admin
 lastMod: 2023-01-24T00:00:00.000Z
 title: Simulación de procesos ARMA en Python
-subtitle: Aprede a simular precesos AR, MA y ARMA con Python y statmodels.
+subtitle: Aprende a simular precesos AR, MA y ARMA con Python y statmodels.
 date: 2023-01-24T00:00:00.000Z
 tags:
   - time series
