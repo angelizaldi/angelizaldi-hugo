@@ -1,5 +1,22 @@
-# Simulación de procesos ARMA en Python
-
+---
+summary: Aprede a simular precesos AR, MA y ARMA con Python y statmodels.
+authors:
+  - admin
+lastMod: 2023-01-24T00:00:00.000Z
+title: Simulación de procesos ARMA en Python
+subtitle: Aprede a simular precesos AR, MA y ARMA con Python y statmodels.
+date: 2023-01-24T00:00:00.000Z
+tags:
+  - time series
+categories:
+  - statmodels
+  - python
+projects: []
+image:
+  caption: ""
+  focal_point: LEFT
+  filename: featured.png
+---
 En este tutorial revisaremos cómo simular procesos AR(p), MA(q) y ARMA(p, q) en Python usando la librería `statsmodels`. Para este tutorial se da por hecho que el lector está familiarizado con conceptos básicos de series de tiempo como tendencia, procesos estacionales, autocorrelación y autocorrelogramas.
 
 Para este tutorial utilizaremos las siguientes librerías de Python:
