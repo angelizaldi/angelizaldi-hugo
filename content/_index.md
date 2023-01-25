@@ -174,10 +174,6 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -235,9 +231,9 @@ sections:
   - block: contact
     id: contact
     content:
-      title: Contact
-      subtitle:
-      text: #|-
+      #title: Contact
+      #subtitle:
+      #text: #|-
       #  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
       email: angel.lizaldi@gmail.com
