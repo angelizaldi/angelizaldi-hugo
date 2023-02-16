@@ -8,8 +8,10 @@ subtitle: Aprende cómo crear heatmaps con Python y Seaborn
 date: 2023-01-23T00:00:00.000Z
 tags:
   - dataviz
+  - seaborn
 categories:
   - seaborn
+  - dataviz
 projects: []
 image:
   caption: ""

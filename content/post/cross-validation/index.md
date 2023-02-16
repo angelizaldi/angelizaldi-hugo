@@ -21,8 +21,6 @@ image:
   filename: featured.png
 ---
 
-# Cross Validation con Scikit-Learn
-
 En este tutorial revisaremos como realizar un cross validation usando la librería `scikit-learn`. Para este tutorial se da por hecho que el lector está familiarizado con conceptos básicos de machine learning, con los modelos de decision tree y con la API de la librería `scikit-learn`. 
 
 ## Cross Validation
